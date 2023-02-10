@@ -1,2 +1,2 @@
 # ML_api
-Machine learning REST API
+REST API for a machine learning model that performs predictive classification of penguin species.
