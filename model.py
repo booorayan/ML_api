@@ -7,16 +7,17 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from joblib import dump
 
 
+# Load dataset
 df = pd.read_csv('/home/bo/Downloads/penguins_size.csv')
 
-# Drop null values
+# Drop null values permanently
 df.dropna(inplace=True)
 
 # Drop island column
 df.drop('island', axis=1, inplace=True)
 
 
-# Label encoding
+# Label encoding to convert categorical columns to numerical values
 enc = LabelEncoder()
 
 for col in df.select_dtypes(include='object'):
