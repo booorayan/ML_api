@@ -53,7 +53,7 @@ i.e, {model.score(X_train,y_train)}, we can conclude the model is not overfittin
 
 # Using confusion_matrix()
 print('\nFurther performance evaluation...')
-print(f'The confusion matrix is: \n{confusion_matrix(y_test, y_pred, labels=[1,2,3])}')
+print(f'\nThe confusion matrix is: \n{confusion_matrix(y_test, y_pred, labels=[1,2,3])}')
 
 # Check for important features
 print(f'Important features: \n{pd.DataFrame(model.feature_importances_, index=df.columns).sort_values(by=0, ascending=False)}')
