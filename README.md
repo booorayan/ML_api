@@ -22,9 +22,14 @@ Using curl one can test prediction as below:
  "sex": 1
 }'`
 
+Here, the columns: culmen_length_mm, culmen_depth_mm, flipper_length_mm, body_mass_g and sex are the independent variables.
+The 'species' column is the dependent variable.
+
 The expected response/prediction is:
 
 `{"prediction":"Gentoo","probability":0.99}`
 
 ## Todo:
 1 [] Hyperparameter tuning to optimize the model
+
+2 [x] Test prediction feature
