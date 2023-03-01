@@ -1,9 +1,13 @@
-# ML_api
+# API for RandomForest Classifier Model
 REST API for a machine learning model that performs predictive classification of penguin species.
+
+This project employs FastAPI to build the ML API.
+
 To run the app through uvicorn use the command:
   
  `uvicorn api:app --reload`
 
+## Make Prediction
 One can test the API in the Swagger UI at http://127.0.0.1:8000/docs
 
 Using curl one can test prediction as below:
