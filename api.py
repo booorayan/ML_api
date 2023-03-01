@@ -2,9 +2,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from joblib import load
 
-
+# instantiate fastapi object
 app = FastAPI()
 
+# load randomforest model
 model = load('penguin_model')
 
 
