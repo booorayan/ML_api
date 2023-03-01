@@ -1,9 +1,9 @@
-# API for RandomForest Classifier Model
-REST API for a machine learning model that performs predictive classification of penguin species.
+# API for Random Forest Classifier Model
+REST API for a machine learning model(random forest classifier) that performs simple predictive classification of penguin species.
 
-This project employs FastAPI to build the ML API.
+This project employs FastAPI to build the API.
 
-To run the app through uvicorn use the command:
+To run the server through uvicorn use the command:
   
  `uvicorn api:app --reload`
 
