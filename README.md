@@ -30,6 +30,6 @@ The expected response/prediction is:
 `{"prediction":"Gentoo","probability":0.99}`
 
 ## Todo:
-1 [] Hyperparameter tuning to optimize the model
+1. [] Hyperparameter tuning to optimize the model
 
-2 [x] Test prediction feature
+2. [x] Test prediction feature
